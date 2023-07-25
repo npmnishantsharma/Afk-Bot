@@ -10,9 +10,6 @@ const logger = loggers.logger;
 
 function createBot() {
    const bot = mineflayer.createBot({
-      username: config['bot-account']['username'],
-      password: config['bot-account']['password'],
-      auth: config['bot-account']['type'],
       host: config.server.ip,
       port: config.server.port,
       version: config.server.version,
