@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "nishantapps.aternos.me",
-    "port": 55111,
+    "ip": "ruby.magmanode.com",
+    "port": 26814,
     "version": "1.19.3"
   },
 
