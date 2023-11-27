@@ -12,16 +12,16 @@
   },
 
   "position": {
-    "enabled": false,
-    "x": 0,
+    "enabled": true,
+    "x": 100000,
     "y": 0,
-    "z": 0
+    "z": 100000
   },
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "never"
     },
 
     "anti-afk": {
@@ -43,20 +43,20 @@
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 60,
 
       "messages": [
         "I'm a regular player ",
-        "My owner is urFate_ ",
+        "My owner is Nishant Sharma",
         "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Visit my GitHub page!"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
